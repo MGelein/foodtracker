@@ -10,12 +10,48 @@
     <meta name="author" content="Mees Gelein">
 
     <!-- CSS -->
-    <link rel="stylesheet" href="css/style.css?v=1.0">
+    <link rel="stylesheet" href="css/style.css?v=1.4">
     <link rel="stylesheet" href="css/bootstrap.min.css">
+    
+    <!-- FONTS -->
+    <link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet">
+    
 
 </head>
 
 <body class="container">
+
+    <div class="row">
+        <!-- Main Column that holds the controls-->
+        <div class="col-sm-12 text-center" id="mainHolder">
+            <h1>FoodTracker</h1>
+            <p><em class='cursive'>Track Your Intake!</em></p>
+
+            <div class="row" id="buttonGrid">
+                <div class="col-sm-12">
+                    <h2>Drinks</h2>
+                </div>
+                <div class="col-sm-4">
+                    <button type="button" class="btn btn-danger btn-block">
+                        <h4>Unhealthy Drink&nbsp;<span class="badge badge-pill badge-light">-100</span></h4>
+                        <p class="desc">Anything with a lot of sugar like softdrinks and carbonated drinks.</p>
+                    </button>
+                </div>
+                <div class="col-sm-4">
+                    <button type="button" class="btn btn-info btn-block">
+                        <h4>Normal Drink&nbsp;<span class="badge badge-pill badge-light">+10</span></h4>
+                        <p class="desc">Tea with honey, coffee with sugar, lemonade, etc.</p>
+                    </button>
+                </div>
+                <div class="col-sm-4">
+                    <button type="button" class="btn btn-success btn-block">
+                        <h4>Healthy Drink&nbsp;<span class="badge badge-pill badge-light">+200</span></h4>
+                        <p class="desc">No sugar in the drink, things like tea, coffee or water.</p>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
 
     <!--SCRIPTS-->
     <script src="js/lib/jquery-3.3.1.min.js"></script>

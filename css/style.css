@@ -1,0 +1,35 @@
+/**
+HTML overrides
+**/
+body{
+    background-image: url(../img/bg.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+/**
+Bootstrap overrides
+**/
+
+/**
+CUSTOM CLASSES
+**/
+.cursive{
+    font-family: 'Indie Flower', cursive;
+}
+
+.desc{
+    font-family: 'Indie Flower', cursive;
+}
+
+/**
+CUSTOM ID's
+**/
+#mainHolder{
+    background: rgba(255, 255, 255, 0.8);
+    padding: 1em;
+    border-radius: 1em;
+    margin: 0.5em;
+    width: 100%;
+    border: 2px solid rgba(0, 0, 0, 0.2);
+}
