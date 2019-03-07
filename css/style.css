@@ -18,6 +18,23 @@ Bootstrap overrides
 /**
 CUSTOM CLASSES
 **/
+.btn-magenta{
+    color: white;
+    background-color: #872077;
+    border-color: #872077;
+}
+
+.btn-outline-magenta{
+    color: #872077;
+    border-color: #872077;
+}
+
+.btn-outline-magenta:hover, .btn-magenta:hover{
+    color: white;
+    background-color: #631958;
+    border-color: #631958;
+}
+
 .cursive{
     font-family: 'Indie Flower', cursive;
 }
@@ -29,6 +46,14 @@ CUSTOM CLASSES
 /**
 CUSTOM ID's
 **/
+#accountPanel{
+    position: absolute;
+}
+
+#points, #username{
+    font-size: 120%;
+}
+
 #mainHolder{
     background: rgba(255, 255, 255, 0.8);
     padding: 1em;

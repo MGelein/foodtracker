@@ -10,12 +10,12 @@
     <meta name="author" content="Mees Gelein">
 
     <!-- CSS -->
-    <link rel="stylesheet" href="css/style.css?v=2.4">
     <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css?v=2.4">
 
     <!-- FONTS -->
     <link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet">
-
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css">
 
 </head>
 
@@ -24,9 +24,25 @@
     <div class="row">
         <!-- Main Column that holds the controls-->
         <div class="col-sm-12 text-center" id="mainHolder">
+            <div id="accountPanel">
+                <p>
+                    <span><i class="fas fa-user"></i>&nbsp;<em class='cursive' id='username'>Kirsten</em></span>&nbsp;
+                    <span><i class="fas fa-star"></i>&nbsp;<em class='cursive' id='points'>100.000</em></span>
+                </p>
+            </div>
             <h1>FoodTracker</h1>
             <p><em class='cursive'>Track Your Intake!</em></p>
 
+            
+            <div class="row" id="modeChooser">
+                <div class="col-sm-3"></div>
+                <div class="col-sm-6">
+                    <div class="btn-group btn-block">
+                        <button type="button" class="btn btn-lg btn-magenta">Register Food</button>
+                        <button type="button" class="btn btn-lg btn-outline-magenta">Score Overview</button>
+                    </div>
+                </div>
+            </div>
             <div class="row" id="buttonGrid">
 
                 <!-- DRINKS -->
@@ -87,13 +103,13 @@
                 </div>
                 <div class="col-sm-4">
                     <button type="button" class="btn btn-info btn-block">
-                        <h4>Normal Snack&nbsp;<span class="badge badge-pill badge-light">+4</span></h4>
+                        <h4>Normal Meal&nbsp;<span class="badge badge-pill badge-light">+4</span></h4>
                         <p class="desc">Reasonable meals like Chinese food and bread with non savoury topping.</p>
                     </button>
                 </div>
                 <div class="col-sm-4">
                     <button type="button" class="btn btn-success btn-block">
-                        <h4>Healthy Snack&nbsp;<span class="badge badge-pill badge-light">+8</span></h4>
+                        <h4>Healthy Meal&nbsp;<span class="badge badge-pill badge-light">+8</span></h4>
                         <p class="desc">Meals with plenty of vegetables, no sugar, or bread with savoury topping.</p>
                     </button>
                 </div>
